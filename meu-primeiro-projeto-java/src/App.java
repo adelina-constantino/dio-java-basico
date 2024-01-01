@@ -1,5 +1,9 @@
-public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Boas vindas");
+class ifTest {
+    public static void main (String[] args) {
+        int x = 3;
+        if (x == 3){
+            System.out.println("x deve ser igual a 3");
+        }
+        System.out.println("Isso será executado de qualquer forma");
     }
 }
